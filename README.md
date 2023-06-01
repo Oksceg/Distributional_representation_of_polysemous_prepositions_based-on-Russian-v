@@ -33,7 +33,7 @@ geowac_tokens (векторы форм) | 0.685
 geowac_lemmas | 0.547
 ruswikicorp_lemmas | 0.571
 taiga_lemmas | 0.569
-*geowac_tokens (векторы форм) + geowac_lemmas | 0.867*
+**geowac_tokens (векторы форм) + geowac_lemmas** | **0.867**
 hudlit_lemmas | 0.564
 news_lemmas | 0.38
 hudlit_tokens | 0.496
@@ -43,4 +43,4 @@ elmo_ruswikicorp_tokens | -0.004
 elmo_taiga_lemmas | 0.0
 araneum_lemmas | 0.016
 
-
+Заметим, что индекс не отобразил истинные результаты по ruswikicorp_lemmas и taiga_lemmas: в каждом из случаев большая часть примеров места и направления попала в один кластер. Так, по сути по этим моделям мы получили исход, противоположный ожидаемому, т.к. мы хотели, чтобы примеры места и направления разбились по разным группам.
